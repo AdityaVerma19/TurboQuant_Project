@@ -145,6 +145,10 @@ class TurboQuant:
 
         alpha = scale / 2
 
+        print(
+            "\n[TurboQuant] Applying TurboVec-style Residual Correction..."
+        )
+
         corrected = (
             deq +
             alpha * sign_bits
@@ -156,8 +160,6 @@ class TurboQuant:
             )
         )
 
-        return recovered
+        return recovered.astype(np.float32)
 
 
-print("TurboQuant")
-print("Aditya")
