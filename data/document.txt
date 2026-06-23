@@ -1,0 +1,10 @@
+Machine learning is transforming industries.
+Deep learning uses neural networks.
+Python is popular for AI development.
+Vector databases store embeddings efficiently.
+Quantization reduces memory usage.
+Large language models use transformer architecture.
+Retrieval augmented generation improves factuality.
+FAISS enables fast similarity search.
+Embeddings capture semantic meaning.
+TurboQuant compresses vectors efficiently.
